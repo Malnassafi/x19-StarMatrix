@@ -9,7 +9,7 @@ int main()
     int row,column;
     vector < vector < char > > starMatrix;
 
-    cout<<" Enter rows and columns of stars\n";
+    cout<<" Enter rows and columns of stars:\n";
     cin>>row;
     cin>>column;
      
