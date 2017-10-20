@@ -9,7 +9,7 @@ int main()
     int row,column;
     vector < vector < char > > starMatrix;
 
-    cout<<" Enter rows and columns of stars:\n";
+    cout<<"Enter rows and columns of stars:\n";
     cin>>row;
     cin>>column;
      
@@ -22,7 +22,7 @@ int main()
             for(int cindex = 0; cindex < starMatrix[index].size(); cindex++)
             {
                 starMatrix[index][cindex] = '*';
-                cout<<starMatrix[index][cindex]<<" ";
+                cout<<starMatrix[index][cindex]<<"";
             }
             cout<<endl;
         }
